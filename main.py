@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def main():
-    model = {"title": "Small cheer and great welcome to webhook test"}
+    model = {"title": "Small cheer and great welcome to NTT"}
     return render_template('index.html', model=model)
 
 if __name__ == "__main__":
